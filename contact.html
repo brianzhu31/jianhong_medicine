@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar_container">
+      <a href="/" id="navbar_logo">健宏</a>
+      <div class="navbar_toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar_menu">
+        <li class="navbar_item">
+          <a href="/index.html" class="navbar_links">Home</a>
+        </li>
+        <li class="navbar_item">
+          <a href="/products.html" class="navbar_links">Products</a>
+        </li>
+        <li class="navbar_item">
+          <a href="/services.html" class="navbar_links">Services</a>
+        </li>
+        <li class="navbar_item">
+          <a href="/contact.html" class="navbar_links">Contact</a>
+        </li>
+        <li class="navbar_item">
+          <a href="/contact_chn.html" class="navbar_links">中文</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="main">
+    <div class="main_container">
+      <div class="info_container">
+        <div class="info_grid">
+          <div class="contacts_hours_container">
+            <div class="contacts_container">
+              <h2>Contacts</h2>
+              <p>Email: youremail@gmail.com</p>
+              <p>Phone: 123-456-7890</p>
+              <p>Address: 7010 Warden Avenue, Markham, ON L3R 5Y3</p>
+            </div>
+            <div class="hours_container">
+              <h2>Hours</h2>
+              <p>Monday 12:30pm - 9:00pm</p>
+              <p>Tuesday 12:30pm - 9:00pm</p>
+              <p>Wednesday 12:30pm - 9:00pm</p>
+              <p>Thursday 12:30pm - 9:00pm</p>
+              <p>Friday 12:30pm - 9:00pm</p>
+              <p>Saturday 12:30pm - 9:00pm</p>
+              <p>Sunday 3:00pm - 8:00pm</p>
+            </div>
+          </div>
+          <div class="map_container">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11514.87232141971!2d-79.3253433!3d43.8202068!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcfa5cacd94385070!2sKanhung%20Ng%20Acupcture!5e0!3m2!1sen!2sca!4v1660659543824!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="form_container">
+          <h2> Send a message</h2>
+          <div class="form_boxes_container">
+            <form action="https://formsubmit.co/brianzhu4321@gmail.com" method="POST">
+              <input type="hidden" name="_next" value="/contact.html">
+              <div class="email_box_container">
+                <input class="email_box" type="email" name="email" placeholder="Email Address">
+              </div>
+              <div class="message_box_container">
+                <textarea class="message_box" type="text" name="message" placeholder="Message" required rows="10"></textarea>
+              </div>
+              <div class="submit_btn_container">
+                <button class="submit_btn" type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer_container">
+      <div class="footer_logo">
+        健宏
+      </div>
+      <div class="footer_info_container">
+        <p>Address: 7010 Warden Avenue, Markham, ON L3R 5Y3</p>
+        <p>Phone: (905) 946-1881</p>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
